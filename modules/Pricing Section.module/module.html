@@ -1,0 +1,39 @@
+<div class="Pricing-mod">
+  <div class="container-pr">
+    <div class="Pricing-inner"> 
+      <div class="Pricing-content-rp">
+        {{ module.edit_content }}
+      </div>
+      
+<div class="priving-content-ma d-flex">
+	<div class="pri-left col-6">
+	
+	<div class="pri-left-ctn">
+		{{ module.edit_left_content }}
+	</div>	
+	</div>
+	<div class="pri-right col-6">
+	<div class="pri-right-ctn pri-left-ctn">
+		{{ module.edit_right_content }}
+	</div>	
+	</div>
+</div>
+<div class="pri-bott-content">
+	{{ module.edit_bottom_content }}
+</div>
+<div class="button-sec">
+
+{% set href = module.edit_button_group.edit_button_link.url.href %}
+{% if module.edit_button_group.edit_button_link.url.type is equalto "EMAIL_ADDRESS" %}
+  {% set href = "mailto:" + href %}
+{% endif %}
+<a class="large-btn" href="{{ href }}"
+  {% if module.edit_button_group.edit_button_link.open_in_new_tab %}target="_blank"{% endif %}
+  {% if module.edit_button_group.edit_button_link.rel %}rel="{{ module.edit_button_group.edit_button_link.rel }}"{% endif %}
+  >
+  {{ module.edit_button_group.edit_button_text }}
+</a>
+      </div>
+    </div>
+  </div>
+</div>

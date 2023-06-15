@@ -1,0 +1,32 @@
+.footer-social-share ul {
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.footer-social-share ul li {
+    list-style: none;
+    padding-right: 10px;
+}
+.footer-social-share ul li i {
+    color: #fff;
+}
+
+.footer-social-share ul li a {
+    padding-left: 15px;
+}
+.privacy-menu ul li a {
+    color: #fff;
+    font-size: 15px;
+   padding: 0 15px;
+}
+.footer-inner-main.d-flex {
+    justify-content: center;
+}
+.privacy-menu ul {
+    justify-content: center;
+}
+.col-3 {
+       width: 33%;
+    max-width: 33%;
+    flex:  0 0 33%;
+}

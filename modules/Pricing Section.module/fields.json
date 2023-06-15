@@ -1,0 +1,91 @@
+[ {
+  "id" : "568bce07-8669-f880-fa4f-27fcea77179a",
+  "name" : "edit_content",
+  "display_width" : null,
+  "label" : "Edit Content",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "<div style=\"text-align: center;\">\n<h2>Get on the waitlist! Limited spots for Set-Your-Own (SYO) pricing</h2>\n<p>You read that right.. because growing diversity and inclusion in tech is our end game we want to get Vize D&amp;I into as many hands as possible regardless of stage! That's why for a limited number of clients we are offering SYO Pricing where you tell us what works for you. Don't worry, no credit card required, just three quick steps to register.</p>\n</div>"
+}, {
+  "id" : "f5d2609f-4f58-25da-333e-c2437dad077f",
+  "name" : "edit_left_content",
+  "display_width" : null,
+  "label" : "Edit Left Content",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "<p>We realize the various states of tech companies from pre-seed to Series A and beyond but two things remain clear for all:</p>\n<ol>\n<li>the sooner D&amp;I is engrained in your culture the better and</li>\n<li>every person should get the chance to work on themselves regardless of the stage their company is at. This is why we have crafted two flexible methods of getting started.</li>\n</ol>"
+}, {
+  "id" : "82fdb315-f1c7-45cd-57b0-c5e145a80bb9",
+  "name" : "edit_right_content",
+  "display_width" : null,
+  "label" : "Edit Right Content",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "<ol>\n<li>Become a Vize DI Early Partner - Perfect for those who want to be hands-on in our movement by shaping Vize DI with your own feature requests. You get the benefit of a truly impactful tool while doing something great for the industry and we get to hear from you and feed our roadmap with things that make a difference.</li>\n<li>Start the movement when the movement has begun - perfect for those who want to lock in first-mover pricing and get going the minute the product is ready to launch.</li>\n</ol>"
+}, {
+  "id" : "df821ba6-fab2-2810-f0f9-131fcb29cda9",
+  "name" : "edit_bottom_content",
+  "display_width" : null,
+  "label" : "Edit Bottom Content",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "<p style=\"text-align: center;\">Still interested but don't know which option is best? No problem! We're here to help you get started on your DI journey. Get started here button Don't worry, no credit card is required, and no obligation, just three quick steps to register.</p>"
+}, {
+  "id" : "75a4b53e-9cc1-1bf6-fddf-c57a676e25d2",
+  "name" : "edit_button_group",
+  "display_width" : null,
+  "label" : "Edit Button Group",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "8e3874e0-35a7-0b00-d5bc-97974859d401",
+    "name" : "edit_button_text",
+    "display_width" : null,
+    "label" : "Edit Button Text",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Get started — Free!"
+  }, {
+    "id" : "5e786b3d-0f46-14d1-9a9d-374fa2bcb3f7",
+    "name" : "edit_button_link",
+    "display_width" : null,
+    "label" : "Edit Button Link",
+    "required" : false,
+    "locked" : false,
+    "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG" ],
+    "show_advanced_rel_options" : false,
+    "type" : "link",
+    "default" : {
+      "url" : {
+        "content_id" : null,
+        "type" : "EXTERNAL",
+        "href" : ""
+      },
+      "open_in_new_tab" : false,
+      "no_follow" : false
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "edit_button_text" : "Get started — Free!",
+    "edit_button_link" : {
+      "url" : {
+        "content_id" : null,
+        "type" : "EXTERNAL",
+        "href" : ""
+      },
+      "open_in_new_tab" : false,
+      "no_follow" : false
+    }
+  }
+} ]

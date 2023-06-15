@@ -1,0 +1,206 @@
+<!--
+  templateType: page
+  isAvailableForNewContent: true
+  label: Landing Page 
+-->
+{% extends "./layouts/base.html" %}
+
+{% block body %}
+ 
+{% dnd_area "dnd_area"
+  label="Main section",
+  class="body-container body-container--home"
+%}
+
+<!-------------------- Banner Section Start -------------------->
+
+  {% dnd_section 
+    padding={
+    'default': { 'top': '60', 'bottom': '100', 'right': '0', 'left': '0' }, 
+    'mobile': { 'top':'60', 'bottom': '0', 'right': '0', 'left': '0' }       
+    },
+    max_width=900, 
+    background_color={
+    r: 248,
+    g: 250,
+    b: 252,
+    a: 1.0
+  }
+  %}
+  
+          {% dnd_column %}
+            
+            {% dnd_row %}
+           {% dnd_module path="../modules/Banner Module.module" %}                
+        {% end_dnd_module %}        
+      {% end_dnd_row %}
+        {% end_dnd_column %}         
+     
+  {% end_dnd_section %}
+
+<!-------------------- Banner Section End -------------------->
+<!-------------------- Banner Section Start -------------------->
+
+  {% dnd_section 
+    padding={
+    'default': { 'top': '0', 'bottom': '0', 'right': '0', 'left': '0' }, 
+    'mobile': { 'top':'60', 'bottom': '0', 'right': '0', 'left': '0' }       
+    },
+    full_width=true
+  %}
+  
+          {% dnd_column %}
+            
+            {% dnd_row %}
+           {% dnd_module path="../modules/Testimonial Module.module" %}                
+        {% end_dnd_module %}        
+      {% end_dnd_row %}
+        {% end_dnd_column %}         
+     
+  {% end_dnd_section %}
+
+<!-------------------- Banner Section End -------------------->
+
+<!-------------------- Banner Section Start -------------------->
+
+  {% dnd_section 
+    padding={
+    'default': { 'top': '100', 'bottom': '60', 'right': '0', 'left': '0' }, 
+    'mobile': { 'top':'60', 'bottom': '0', 'right': '0', 'left': '0' }       
+    },
+    full_width=true
+  %}
+  
+          {% dnd_column %}
+            
+            {% dnd_row %}
+           {% dnd_module path="../modules/Two Col Module.module", section_alignment="two-col-fl" %}                
+        {% end_dnd_module %}        
+      {% end_dnd_row %}
+        {% end_dnd_column %}         
+     
+  {% end_dnd_section %}
+
+<!-------------------- Banner Section End -------------------->
+<!-------------------- Banner Section Start -------------------->
+
+  {% dnd_section 
+    padding={
+    'default': { 'top': '0', 'bottom': '60', 'right': '0', 'left': '0' }, 
+    'mobile': { 'top':'60', 'bottom': '0', 'right': '0', 'left': '0' }       
+    },
+    full_width=true
+  %}
+  
+          {% dnd_column %}
+            
+            {% dnd_row %}
+           {% dnd_module path="../modules/Two Col Module.module" %}                
+        {% end_dnd_module %}        
+      {% end_dnd_row %}
+        {% end_dnd_column %}         
+     
+  {% end_dnd_section %}
+
+<!-------------------- Banner Section End -------------------->
+
+<!-------------------- Banner Section Start -------------------->
+
+  {% dnd_section 
+    padding={
+    'default': { 'top': '100', 'bottom': '60', 'right': '0', 'left': '0' }, 
+    'mobile': { 'top':'60', 'bottom': '0', 'right': '0', 'left': '0' }       
+    },
+    full_width=true
+  %}
+  
+          {% dnd_column %}
+            
+            {% dnd_row %}
+           {% dnd_module path="../modules/Two Col Module.module", section_alignment="two-col-fl" %}                
+        {% end_dnd_module %}        
+      {% end_dnd_row %}
+        {% end_dnd_column %}         
+     
+  {% end_dnd_section %}
+
+<!-------------------- Banner Section End -------------------->
+<!-------------------- Banner Section Start -------------------->
+
+  {% dnd_section 
+    padding={
+    'default': { 'top': '0', 'bottom': '60', 'right': '0', 'left': '0' }, 
+    'mobile': { 'top':'60', 'bottom': '0', 'right': '0', 'left': '0' }       
+    },
+    full_width=true
+  %}
+  
+          {% dnd_column %}
+            
+            {% dnd_row %}
+           {% dnd_module path="../modules/Two Col Module.module" %}                
+        {% end_dnd_module %}        
+      {% end_dnd_row %}
+        {% end_dnd_column %}         
+     
+  {% end_dnd_section %}
+
+<!-------------------- Banner Section End -------------------->
+<!-------------------- Banner Section Start -------------------->
+
+  {% dnd_section 
+    padding={
+    'default': { 'top': '100', 'bottom': '60', 'right': '0', 'left': '0' }, 
+    'mobile': { 'top':'60', 'bottom': '0', 'right': '0', 'left': '0' }       
+    },
+    full_width=true,
+    background_color={
+    r: 161,
+    g: 214,
+    b: 182,
+    a: 1
+  }
+  %}
+  
+          {% dnd_column %}
+            
+            {% dnd_row %}
+           {% dnd_module path="../modules/Testimonial Card Module.module" %}                
+        {% end_dnd_module %}        
+      {% end_dnd_row %}
+        {% end_dnd_column %}         
+     
+  {% end_dnd_section %}
+
+<!-------------------- Banner Section End -------------------->
+
+<!-------------------- Banner Section Start -------------------->
+
+  {% dnd_section 
+    padding={
+    'default': { 'top': '100', 'bottom': '60', 'right': '0', 'left': '0' }, 
+    'mobile': { 'top':'60', 'bottom': '60', 'right': '10', 'left': '10' }       
+    },
+    full_width=true,
+    background_color={
+    r: 255,
+    g: 255,
+    b: 255,
+    a: 1
+  }
+  %}
+  
+          {% dnd_column %}
+            
+            {% dnd_row %}
+           {% dnd_module path="../modules/Pricing Section.module" %}                
+        {% end_dnd_module %}        
+      {% end_dnd_row %}
+        {% end_dnd_column %}         
+     
+  {% end_dnd_section %}
+
+<!-------------------- Banner Section End -------------------->
+   
+{% end_dnd_area %}
+{% endblock body %}

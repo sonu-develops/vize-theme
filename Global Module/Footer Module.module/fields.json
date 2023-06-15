@@ -1,0 +1,112 @@
+[ {
+  "id" : "dceb4980-ccbc-cc53-935f-0261c5d1f578",
+  "name" : "edit_copyright_content",
+  "display_width" : null,
+  "label" : "Edit Copyright Content",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "<p><span style=\"color: #ffffff; margin-bottom: 0;\">© Vize Labs Inc 2022</span></p>"
+}, {
+  "id" : "ab7a3d55-5058-5c98-e117-89158759d267",
+  "name" : "edit_menu_section",
+  "display_width" : null,
+  "label" : "Edit Menu Section",
+  "required" : false,
+  "locked" : false,
+  "type" : "menu",
+  "default" : 71691748189
+}, {
+  "id" : "e0fb83a9-aa29-bd36-5bde-5550c6df981c",
+  "name" : "edit_social_listing",
+  "display_width" : null,
+  "label" : "Edit Social Listing",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : null,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : 4
+  },
+  "children" : [ {
+    "id" : "70648cf7-96a5-2198-bcee-a6e9997d11c5",
+    "name" : "edit_font_awesome",
+    "display_width" : null,
+    "label" : "Edit Font Awesome",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "<i class=\"fab fa-facebook\"></i>"
+  }, {
+    "id" : "35f579a1-1f36-9657-277a-c430d8e85c6e",
+    "name" : "edit_social_link",
+    "display_width" : null,
+    "label" : "Edit Social Link",
+    "required" : false,
+    "locked" : false,
+    "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG" ],
+    "show_advanced_rel_options" : false,
+    "type" : "link",
+    "default" : {
+      "url" : {
+        "content_id" : null,
+        "type" : "EXTERNAL",
+        "href" : ""
+      },
+      "open_in_new_tab" : false,
+      "no_follow" : false
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : [ {
+    "edit_font_awesome" : "<i class=\"fab fa-facebook\"></i>",
+    "edit_social_link" : {
+      "url" : {
+        "content_id" : null,
+        "type" : "EXTERNAL",
+        "href" : ""
+      },
+      "open_in_new_tab" : false,
+      "no_follow" : false
+    }
+  }, {
+    "edit_font_awesome" : "<i class=\"fab fa-facebook\"></i>",
+    "edit_social_link" : {
+      "url" : {
+        "content_id" : null,
+        "type" : "EXTERNAL",
+        "href" : ""
+      },
+      "open_in_new_tab" : false,
+      "no_follow" : false
+    }
+  }, {
+    "edit_font_awesome" : "<i class=\"fab fa-facebook\"></i>",
+    "edit_social_link" : {
+      "url" : {
+        "content_id" : null,
+        "type" : "EXTERNAL",
+        "href" : ""
+      },
+      "open_in_new_tab" : false,
+      "no_follow" : false
+    }
+  }, {
+    "edit_font_awesome" : "<i class=\"fab fa-facebook\"></i>",
+    "edit_social_link" : {
+      "url" : {
+        "content_id" : null,
+        "type" : "EXTERNAL",
+        "href" : ""
+      },
+      "open_in_new_tab" : false,
+      "no_follow" : false
+    }
+  } ]
+} ]

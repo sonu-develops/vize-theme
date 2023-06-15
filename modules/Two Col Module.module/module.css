@@ -1,0 +1,14 @@
+.two-right {
+    display: flex;
+    align-items: center;
+}
+.two-col-fl .two-content {
+    padding-left: 0;
+    padding-right: 40px;
+}
+.two-col-fl {
+    flex-direction: row-reverse;
+}
+.two-content {
+    padding-left: 40px;
+}

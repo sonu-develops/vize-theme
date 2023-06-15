@@ -1,0 +1,43 @@
+<div class="footer-sec">
+	<div class="container">
+		<div class="footer-inner-main d-flex">
+			
+			<div class="footer-left col-3">
+				
+				<div class="footer-content d-flex">
+					<div class="social-content">
+						{{ module.edit_copyright_content }}
+					</div>
+					
+				</div>
+			</div>
+			<div class="pr-menu col-3">
+				<div class="privacy-menu">
+					{% menu id="{{ module.edit_menu_section }}" %}
+				</div>
+			</div>
+			<div class="footer-right col-3">
+				
+				<div class="footer-social-share">
+					
+					<ul>
+						{% for item in module.edit_social_listing %}
+							<li>
+								{% set href = item.edit_social_link.url.href %}
+								{% if item.edit_social_link.url.type is equalto "EMAIL_ADDRESS" %}
+									{% set href = "mailto:" + href %}
+								{% endif %}
+								<a href="{{ href }}"
+									{% if item.edit_social_link.open_in_new_tab %}target="_blank"{% endif %}
+									{% if item.edit_social_link.rel %}rel="{{ item.edit_social_link.rel }}"{% endif %}
+									>
+									{{ item.edit_font_awesome }}
+								</a>
+							</li>
+						{% endfor %}
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

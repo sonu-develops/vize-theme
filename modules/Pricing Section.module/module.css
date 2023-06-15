@@ -1,0 +1,35 @@
+ 
+.container-pr {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.button-sec {
+    text-align: center;
+    padding-top: 20px;
+}
+.Pricing-inner a.large-btn {
+    
+    margin: 0 auto;
+}
+.Pricing-content-rp ul li {
+    list-style: none;
+}
+.pri-left-ctn {
+    box-shadow: 0 0 15px 0 rgb(0 0 0 / 20%);
+    transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
+    border-radius: 20px;
+    padding: 25px;
+    background-color: #fff;
+    margin: 20px;
+    padding-bottom: 0 !IMPORTANT;
+}
+.pri-bott-content {
+    padding-top: 35px !important;
+}
+
+.priving-content-ma .col-6 .pri-left-ctn {
+    min-height: 290px !important;
+}
+.pri-left-ctn ol li {
+    padding-bottom: 20px;
+}

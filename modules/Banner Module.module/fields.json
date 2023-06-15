@@ -1,0 +1,175 @@
+[ {
+  "id" : "cfce2776-e666-77b5-11b2-92941de86e4e",
+  "name" : "edit_heading_content",
+  "display_width" : null,
+  "label" : "Edit Heading Content",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "<div style=\"text-align: center;\">\n<h1>Start your teams diversity and inclusion game</h1>\n</div>"
+}, {
+  "id" : "004e7d4b-ce42-eb64-8ebd-74a83437db8b",
+  "name" : "edit_listing_content",
+  "display_width" : null,
+  "label" : "Edit Listing Content",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : null,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : 3
+  },
+  "children" : [ {
+    "id" : "368f073f-052d-6300-ab77-b995c3880f05",
+    "name" : "edit_content",
+    "display_width" : null,
+    "label" : "Edit Content",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Easy sign up"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : [ {
+    "edit_content" : "Easy sign up"
+  }, {
+    "edit_content" : "Easy sign up"
+  }, {
+    "edit_content" : "Easy sign up"
+  } ]
+}, {
+  "id" : "a58cd06e-fa34-ae3e-3945-a872a34b30b4",
+  "name" : "slack_button_group",
+  "display_width" : null,
+  "label" : "Slack Button Group",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "22c1d501-c7b4-3df1-8e0a-d605d2d1539c",
+    "name" : "edit_button_text",
+    "display_width" : null,
+    "label" : "Edit Button Text",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Join the Slack waitlist"
+  }, {
+    "id" : "84f4722d-ce5c-4fc2-a14c-aa07b837889d",
+    "name" : "edit_button_link",
+    "display_width" : null,
+    "label" : "Edit Button Link",
+    "required" : false,
+    "locked" : false,
+    "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG" ],
+    "show_advanced_rel_options" : false,
+    "type" : "link",
+    "default" : {
+      "url" : {
+        "content_id" : null,
+        "type" : "EXTERNAL",
+        "href" : ""
+      },
+      "open_in_new_tab" : false,
+      "no_follow" : false
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "edit_button_text" : "Join the Slack waitlist",
+    "edit_button_link" : {
+      "url" : {
+        "content_id" : null,
+        "type" : "EXTERNAL",
+        "href" : ""
+      },
+      "open_in_new_tab" : false,
+      "no_follow" : false
+    }
+  }
+}, {
+  "id" : "385d12dd-c67c-8d36-eb82-928b7aaa2f7e",
+  "name" : "ms_team_group",
+  "display_width" : null,
+  "label" : "MS Team Group",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "e271fc5a-1e1e-e811-787b-83f5a8d0eadb",
+    "name" : "edit_button_text",
+    "display_width" : null,
+    "label" : "Edit Button Text",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Join the MS Teams waitlist"
+  }, {
+    "id" : "9ed08fc3-1fa3-3965-9f07-86d37ae3e788",
+    "name" : "edit_button_link",
+    "display_width" : null,
+    "label" : "Edit Button Link",
+    "required" : false,
+    "locked" : false,
+    "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG" ],
+    "show_advanced_rel_options" : false,
+    "type" : "link",
+    "default" : {
+      "url" : {
+        "content_id" : null,
+        "type" : "EXTERNAL",
+        "href" : ""
+      },
+      "open_in_new_tab" : false,
+      "no_follow" : false
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "edit_button_text" : "Join the MS Teams waitlist",
+    "edit_button_link" : {
+      "url" : {
+        "content_id" : null,
+        "type" : "EXTERNAL",
+        "href" : ""
+      },
+      "open_in_new_tab" : false,
+      "no_follow" : false
+    }
+  }
+}, {
+  "id" : "8ab7af69-cdfe-1405-5d95-02b876caf59e",
+  "name" : "banner_image",
+  "display_width" : null,
+  "label" : "Banner Image",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "https://21093607.fs1.hubspotusercontent-na1.net/hubfs/21093607/Image%20of%20tool.png",
+    "alt" : "Image of tool",
+    "loading" : "lazy",
+    "width" : 995,
+    "height" : 764,
+    "max_width" : 995,
+    "max_height" : 764
+  }
+} ]

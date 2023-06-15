@@ -1,0 +1,42 @@
+[ {
+  "id" : "7f0c50ca-2c88-8e5d-31b7-60c12abd7dee",
+  "name" : "section_alignment",
+  "display_width" : null,
+  "label" : "Section Alignment",
+  "required" : false,
+  "locked" : false,
+  "display" : "select",
+  "choices" : [ [ "two-col-main", "Image on left side" ], [ "two-col-fl", "Image on Right side" ] ],
+  "type" : "choice",
+  "default" : "two-col-main"
+}, {
+  "id" : "8d93ebce-a35e-cf26-f136-9b8ff0d32518",
+  "name" : "add_image",
+  "display_width" : null,
+  "label" : "Add Image",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "https://21093607.fs1.hubspotusercontent-na1.net/hubfs/21093607/Culture%20starts%20with%20you.png",
+    "alt" : "Culture starts with you",
+    "loading" : "lazy",
+    "width" : 833,
+    "height" : 643,
+    "max_width" : 833,
+    "max_height" : 643
+  }
+}, {
+  "id" : "911367ec-4b69-c41d-044b-fa98840268ca",
+  "name" : "edit_content",
+  "display_width" : null,
+  "label" : "Edit Content",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "<h2>Inclusive culture starts with you... and you, and you</h2>\n<p>Vize kicks off your team culture by including everyone! People are invited to learn about their own inclusivity for self-reflection and awareness.</p>"
+} ]

@@ -1,0 +1,25 @@
+<div class="two-col-mod">
+  <div class="container">
+    <div class="{{ module.section_alignment }} d-flex">
+      <div class="col-6 two-left">
+         <div class="two-image"> 
+{% if module.add_image.src %}
+  {% set sizeAttrs = 'width="{{ module.add_image.width }}" height="{{ module.add_image.height }}"' %}
+  {% if module.add_image.size_type == 'auto' %}
+    {% set sizeAttrs = 'style="max-width: 100%; height: auto;"' %}
+  {% elif module.add_image.size_type == 'auto_custom_max' %}
+    {% set sizeAttrs = 'width="{{ module.add_image.max_width }}" height="{{ module.add_image.max_height }}" style="max-width: 100%; height: auto;"' %}
+  {% endif %}
+   {% set loadingAttr = module.add_image.loading != 'disabled' ? 'loading="{{ module.add_image.loading }}"' : '' %}
+  <img src="{{ module.add_image.src }}" alt="{{ module.add_image.alt }}" {{ loadingAttr }} {{ sizeAttrs }}>
+{% endif %}
+        </div>
+      </div>
+      <div class="col-6 two-right"> 
+        <div class="two-content">
+          {{ module.edit_content }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,257 @@
+/* @import url('http://example.com/example_style.css'); */
+
+/***********************************************/
+/* CSS @imports must be at the top of the file */
+/* Add them above this section                 */
+/***********************************************/
+
+/*****************************************/
+/* Start your style declarations here    */
+/*****************************************/
+
+/* Global css start */
+.dnd-section .dnd-column {
+    padding: 0;
+}
+.sticky .add-button a.site-button {
+    background-color: #5867ad !important;
+    color: #fff !important;
+}
+.button-item:first-child a.large-btn {
+    background-color: #5867ad;
+    color: #fff;
+}
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.sec-right {
+    justify-content: end;
+}
+.align-center {
+    display: flex;
+    align-items: center;
+}
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-6 {
+    width: 50%;
+    max-width: 50%;
+    flex: 0 0 50%;
+}
+a.site-button {
+    padding: 12px 30px;
+    border: 2px solid #5867AD;
+    border-radius: 8px;
+    background-color: transparent;
+    transition: .2s;
+    color: #5867AD;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 900;
+    text-align: center;
+    cursor: pointer;
+}
+a.large-btn:hover {
+    background-color: #5867AD;
+    color: #fff;
+    font-weight: 900;
+}
+a.site-button:hover {
+    background-color: #5867AD !important;
+    color: #fff !important;
+    font-weight: 900;
+}
+a.large-btn img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+a.large-btn {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 900;
+    border-radius: 8px;
+    text-align: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border: 2px solid #5867ad;
+    padding: 14px 24px;
+    display: flex;
+    color: #5867ad;
+    width: 400px;
+}
+
+/* Global Css Ends */
+
+
+@media only screen and (max-width: 852px) 
+{
+.two-col-mod .col-6 {
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+}
+  .test-main {
+   
+    column-count: 1 !important;
+    
+}
+  .testimonial-feedback h4 {
+    font-size: 20px !important;
+}
+  .pri-left-ctn {
+     
+    margin: 0 !important;
+    padding-bottom: 0!IMPORTANT;
+}
+  .button-item:first-child {
+    margin-right: 0px !important;
+    margin-bottom: 15px !important;
+}
+ .Pricing-mod .pri-bott-content {
+    padding-top: 0px !important;
+}
+  .priving-content-ma .col-6 {
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+}
+  .testimonial-feedback {
+ 
+    min-height: auto !important;
+}
+  .test-item {
+    width: 47% !important;
+    max-width: 47% !important;
+    flex: 0 0 47% !important; 
+}
+  .testimonial-content {
+     
+    height: auto !important; 
+}
+  .testimonial-mod {
+     
+    min-height: auto !important;
+    
+}
+  .testimonial-content h2 {
+    width: 100% !important;
+    text-align: center !important;
+}
+  .testimonial-mod .col-6 {
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+}
+  
+  
+}
+
+@media only screen and (max-width: 767px) 
+{
+  
+  h1, .h1 {
+     
+    font-size: 48px !important;
+    
+}
+  .footer-content.d-flex {
+    justify-content: center !important;
+}
+  .footer-social-share ul {
+    
+    justify-content: center !important;
+    margin-top: 20px !important;
+}
+  .col-3 {
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+    text-align: center !important;
+}
+  h2, .h2 {
+     
+    font-size: 42px !important;
+    
+}
+  .Pricing-inner {
+    padding: 20px !important; 
+}
+  .two-content {
+    padding-left: 0px !important;
+}
+  .test-main.d-flex {
+     
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+  .test-item {
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+}
+  .two-col-fl .two-content {
+    
+    padding-right: 0px !important;
+}
+  .testimonial-mod {
+     
+    padding-bottom: 0 !important;
+}
+  .testimonial-client {
+    padding-top: 35px !important;
+}
+  .testimonial-cards {
+    padding: 30px !important; 
+}
+  .testimonial-image {
+    width: 30% !important;
+}
+ .testimonial-details {
+    width: 70% !important;
+    font-size: 17px;
+    padding-left: 10px;
+}
+  
+  
+}
+
+@media only screen and (max-width: 481px) 
+{
+  
+  h1, .h1 {
+    font-size: 32px !important;
+}
+  a.large-btn {
+    font-size: 15px !important;
+    
+}
+  .banner-image {
+    padding-top: 40px !important;
+}
+  h2, .h2 {
+    font-size: 36px !important;
+    line-height: inherit !important;
+}
+  .pri-left-ctn ol {
+    padding-left: 20px !important;
+}
+  p {
+    font-size: 18px !important; 
+}
+  .Pricing-inner a.large-btn {
+    width: 305px !important;
+}
+  a.large-btn {
+    
+    width: 330px !important;
+}
+  .test-heading {
+    padding-bottom: 0 !important;
+}
+}
